@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+   function create(){
+	   document.cookie="uname=ram";
+	   alert("cookie is created");
+   }
+   function view(){
+	   alert(document.cookie);
+   }
+</script>
+</head>
+<body>
+<h1>Cookie Demo</h1>
+<hr/>
+<input type="button" value="create cookie" onclick="create()"/>
+<input type="button" value="view cookie" onclick="view()"/>
+</body>
+</html>

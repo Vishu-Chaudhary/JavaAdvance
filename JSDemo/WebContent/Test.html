@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+   function show(){
+	   alert("zero")
+   }
+   function show(a){
+	   alert("one")
+   }
+   function show(a,b){
+	   alert("two")
+   }
+   
+   function redirect(){
+	 open("http://www.gmail.com");
+	 //location.href="http://www.gmail.com";
+   }
+</script>
+</head>
+<body>
+<input type="button" value="show" onclick="show()"/>
+
+<input type="button" value="open irctc" onclick="redirect()"/>
+</body>
+</html>

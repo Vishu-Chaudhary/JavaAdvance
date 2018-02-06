@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+</script>
+</head>
+<body onload="getCountOfStorage()">
+	<h1>Storage Demo</h1>
+	<hr />
+	<table cellpadding="10" bgcolor="#wheat" style="margin: 0 auto;">
+		<tr>
+			<td>name</td>
+			<td><input type="text" id="txtname" /></td>
+		</tr>
+		<tr>
+			<td>salary</td>
+			<td><input type="text" id="txtsal" /></td>
+		</tr>
+		<tr>
+			<td>dept</td>
+			<td><select id="txtdept">
+					<option value="hr">hr</option>
+					<option value="pr">pr</option>
+					<option value="qa">qa</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="add" onclick="save()"/>
+			<td><input type="button" value="display all" onclick="display()"/>
+		</tr>
+		
+	</table>
+	<hr size="2" style="background-color: red"/>
+	<div id="div1">
+	
+	</div>
+	
+	<table>
+	
+	</table>
+</body>
+</html>
