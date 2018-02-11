@@ -15,3 +15,6 @@ Activity_5/.project
 Activity_5/.classpath
 Activity_4/.project
 Activity_4/.classpath
+*.lst
+*.jar
+Activity1/.classpath
